@@ -1,2 +1,2 @@
 (window.webpackJsonp=window.webpackJsonp||[]).push([[5],{"./.docz/app/imports.js":function(n,o,t){"use strict";t.r(o),t.d(o,"imports",function(){return c});var c={"src/doc.mdx":function(){return t.e(3).then(t.bind(null,"./src/doc.mdx"))},"src/Button/doc.mdx":function(){return t.e(2).then(t.bind(null,"./src/Button/doc.mdx"))}}}},0,[2,3]]);
-//# sourceMappingURL=5.161e22ec1bb1daa32850.js.map
+//# sourceMappingURL=5.c96ab43c387ac1c5566c.js.map
