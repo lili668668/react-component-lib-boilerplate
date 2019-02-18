@@ -18,9 +18,9 @@
     "test": "jest",
     "test:watch": "jest --coverage && opn ./coverage/index.html && jest --watchAll",
     "docs:dev": "docz dev",
-    "docs:build": "rimraf docs-dist && docz build",
+    "docs:build": "rimraf docs && docz build",
     "docs:deploy": "gh-pages -d docs",
-    "build": "rimraf lib && babel src -d lib",
+    "build": "rimraf lib && babel src -d lib --ignore \"src/**/*.test.js\" --only \"src/**/*.js\"",
     "dev": "yarn test:watch && yarn docs:dev",
     "start": "yarn docs:dev",
     "release": "yarn lint && yarn test && yarn build && yarn doc:build && yarn build && npm publish && yarn doc:deploy"
