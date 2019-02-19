@@ -1,6 +1,6 @@
 # react-component-lib-boilerplate
 
-![TravisCI](https://travis-ci.org/lili668668/react-component-lib-boilerplate)
+![TravisCI](https://api.travis-ci.org/lili668668/react-component-lib-boilerplate.svg?branch=master)
 
 A boilerplate for react component library.
 
