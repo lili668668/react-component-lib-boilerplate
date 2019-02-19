@@ -26,7 +26,6 @@
     "docs:build": "rimraf docs && docz build",
     "docs:deploy": "gh-pages -d docs",
     "build": "rimraf lib && babel src -d lib --ignore \"src/**/*.test.js\" --only \"src/**/*.js\"",
-    "dev": "concurrently \"yarn test:watch\" \"yarn docs:dev\"",
     "start": "yarn docs:dev",
     "release": "yarn lint && yarn test && yarn build && yarn doc:build && yarn build && npm publish && yarn doc:deploy"
   },
@@ -41,7 +40,6 @@
     "@babel/preset-env": "latest",
     "@babel/preset-react": "latest",
     "babel-jest": "latest",
-    "concurrently": "latest",
     "docz": "latest",
     "docz-theme-default": "latest",
     "enzyme": "latest",
