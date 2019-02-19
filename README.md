@@ -1,5 +1,7 @@
 # react-component-lib-boilerplate
 
+![TravisCI](https://travis-ci.org/lili668668/react-component-lib-boilerplate)
+
 A boilerplate for react component library.
 
 - [GitHub](http://github.com/lili668668/react-component-lib-boilerplate)
