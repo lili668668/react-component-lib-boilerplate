@@ -22,7 +22,7 @@
     "lint:fix": "eslint src --fix",
     "test": "jest",
     "test:watch": "jest --coverage && opn ./coverage/index.html && jest --watchAll",
-    "test:codecov": "jest --reporters lcovonly && codecov",
+    "test:codecov": "jest --reporters lcov && codecov",
     "docs:dev": "docz dev",
     "docs:build": "rimraf docs && docz build",
     "docs:deploy": "gh-pages -d docs",
